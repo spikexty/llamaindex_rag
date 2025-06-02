@@ -1,8 +1,5 @@
 # llama index 实现RAG
 
-## 📷 朴素RAG思想
-“ra + g" 
-
 ![Basic RAG](./assets/basic_rag.png)
 
 
@@ -32,10 +29,6 @@ https://llamahub.ai/?tab=readers
 
 ```
 pip install llama-index
-
-如果配置ollama本地模型，需要额外安装：
-pip install llama-index-llms-ollama
-pip install llama-index-embeddings-ollama
 ```
 
 ### 1. 对多个txt文本的检索问答
